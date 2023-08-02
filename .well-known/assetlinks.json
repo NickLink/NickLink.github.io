@@ -1,1 +1,8 @@
-[]
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.example.crowncompose",
+    "sha256_cert_fingerprints": ["9B:B8:DE:A1:B8:BC:B8:B4:C2:76:75:DE:C1:D9:54:D6:F0:26:6B:9E:83:29:ED:55:DB:4D:B4:7B:02:CA:AE:85"]
+  }
+}]
