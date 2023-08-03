@@ -1,8 +1,17 @@
-[{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "com.example.crowncompose",
-    "sha256_cert_fingerprints": ["9B:B8:DE:A1:B8:BC:B8:B4:C2:76:75:DE:C1:D9:54:D6:F0:26:6B:9E:83:29:ED:55:DB:4D:B4:7B:02:CA:AE:85"]
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.example.crowncompose",
+      "sha256_cert_fingerprints": ["9B:B8:DE:A1:B8:BC:B8:B4:C2:76:75:DE:C1:D9:54:D6:F0:26:6B:9E:83:29:ED:55:DB:4D:B4:7B:02:CA:AE:85"]
+    }
+  },{
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "au.com.crownresorts.crma.uat",
+      "sha256_cert_fingerprints": ["D1:FD:B7:2B:57:C8:2E:E9:FE:3B:38:22:CD:86:D6:9B:D9:03:A4:BF:3F:9B:D3:AE:68:A1:34:6A:81:4A:6B:7C"]
+    }
   }
-}]
+]
