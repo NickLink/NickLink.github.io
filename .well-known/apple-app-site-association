@@ -1,11 +1,16 @@
 {
     "applinks": {
-        "apps": [],
-        "details": [
-            {
-                "appID": "4T788VK6NF.au.com.crownmelbourne.mobileconnect",
-                "paths": [ "https://NickLink.github.io/mobile-app/*" ]
-            }
-        ]
-    }
+        "details": [{
+            "appIDs": ["4T788VK6NF.au.com.crownmelbourne.mobileconnect"],
+            "components": [{
+                "/": "*",
+                "comment": "Matches any URL whose path starts with /stock/"
+            }]
+        }]
+    },
+    "appclips": {
+        "apps": [
+            "4T788VK6NF.au.com.crownmelbourne.mobileconnect"
+        ]
+    }
 }
