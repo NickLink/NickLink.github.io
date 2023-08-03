@@ -13,5 +13,12 @@
       "package_name": "au.com.crownresorts.crma.uat",
       "sha256_cert_fingerprints": ["D1:FD:B7:2B:57:C8:2E:E9:FE:3B:38:22:CD:86:D6:9B:D9:03:A4:BF:3F:9B:D3:AE:68:A1:34:6A:81:4A:6B:7C"]
     }
+  },{
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "au.com.crownresorts.crma.debug",
+      "sha256_cert_fingerprints": ["87:A6:0A:11:B9:9A:C1:E1:54:8E:EC:29:39:83:4F:B8:2F:B1:C5:94:98:F4:EA:2D:E4:6C:5B:CA:71:3F:73:F0"]
+    }
   }
 ]
