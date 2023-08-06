@@ -6,11 +6,6 @@
                 "/": "*",
                 "comment": "Matches any URL whose path starts with /stock/"
             }]
-        }]
-    },
-    "appclips": {
-        "apps": [
-            "4T788VK6NF.au.com.crownmelbourne.mobileconnect"
-        ]
+        }]
     }
 }
