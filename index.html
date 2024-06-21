@@ -31,12 +31,16 @@
     </section>
 
     <section>
-            <button id="accessTokenFailed">Access Token Failed</button>
+            <input type=button value = "Access Token Failed" onClick="notifyAccessTokenFailed()">
     </section>
 
-    <script>
-        document.getElementById('accessTokenFailed').addEventListener('click', function () {
-            JavaScriptInterface.accessTokenFailed()
+    <script type="text/javascript">
+        function notifyAccessTokenFailed() {
+            window.JavaScriptInterface.accessTokenFailed()
+        }
+
+        function accessTokenAccepted(token) {
+            
         }
     </script>
 
