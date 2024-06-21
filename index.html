@@ -12,6 +12,17 @@
             margin: 5px;
         }
     </style>
+
+        <script type="text/javascript">
+        function notifyAccessTokenFailed() {
+            JavaScriptInterface.accessTokenFailed();
+        }
+
+        function accessTokenAccepted(token) {
+            alert("Hello! I am an alert box!");
+        }
+    </script>
+    
 </head>
 <body>
 
@@ -33,16 +44,6 @@
     <section>
             <input type=button value = "Access Token Failed" onClick="notifyAccessTokenFailed()">
     </section>
-
-    <script type="text/javascript">
-        function notifyAccessTokenFailed() {
-            window.JavaScriptInterface.accessTokenFailed()
-        }
-
-        function accessTokenAccepted(token) {
-            
-        }
-    </script>
 
 </body>
 </html>
