@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>We welcome you</title>
     <meta name="description" content="This page is created to support our visitors">
+        <style>
+         button {
+            font-size: 18px;
+            padding: 10px 20px;
+            margin: 5px;
+        }
+    </style>
 </head>
 <body>
 
@@ -22,6 +29,16 @@
         <p>Email: <a href="mailto:nick.oliinyk@gmail.com">nick.oliinyk@gmail.com</a></p>
         <p>Phone: +380 97 219 9099</p>
     </section>
+
+    <section>
+            <button id="accessTokenFailed">Access Token Failed</button>
+    </section>
+
+    <script>
+        document.getElementById('accessTokenFailed').addEventListener('click', function () {
+            JavaScriptInterface.accessTokenFailed()
+        }
+    </script>
 
 </body>
 </html>
