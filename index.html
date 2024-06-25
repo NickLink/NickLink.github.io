@@ -35,6 +35,10 @@
             <input type=button value = "Access Token Failed" onClick="notifyAccessTokenFailed()">
     </section>
 
+    <section>
+        <input id="Token" name="Token" type="text" placeholder="Token not received!">
+    </section>
+
         <script type="text/javascript">
             
         function notifyAccessTokenFailed() {
@@ -42,7 +46,7 @@
         }
 
         function accessTokenAccepted(token) {
-            alert("Hello! I am an alert box!")
+             document.getElementById ("Token").value = token;
         }
             
     </script>
